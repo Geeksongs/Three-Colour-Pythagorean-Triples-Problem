@@ -1,0 +1,7 @@
+name = "checker"
+version = "0.1.0"
+defaultTargets = ["verify"]
+
+[[lean_exe]]
+name = "verify"
+root = "Verify"
